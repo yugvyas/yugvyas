@@ -3,7 +3,7 @@
 > Developer focused on fundamentals, clarity, and building things that last.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yugvyas/yugvyas/main/asset/cyberpunk.gif" width="600"/>
+  <img src="https://raw.githubusercontent.com/yugvyas/yugvyas/main/asset/cyberpunk.gif" width="400"/>
 </p>
 
 ---
