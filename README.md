@@ -2,6 +2,10 @@
 
 > Developer focused on fundamentals, clarity, and building things that last.
 
+<p align="center">
+  <img src="asset/cyberpunk.gif" alt="Cyberpunk developer vibe" width="600"/>
+</p>
+
 ---
 
 ## 📖 Who I Am
