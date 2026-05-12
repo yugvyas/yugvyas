@@ -3,7 +3,7 @@
 > Developer focused on fundamentals, clarity, and building things that last.
 
 <p align="center">
-  <img src="./asset/banner.svg" width="700"/>
+  <img src="./asset/banner.svg" width="1000"/>
 </p>
 
 ---
