@@ -1,0 +1,70 @@
+<svg fill="none" viewBox="0 0 1000 300" width="1000" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <linearGradient id="wave" x1="0" x2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="300" fill="url(#bg)" rx="0"/>
+
+  <!-- Animated Wave -->
+  <path fill="url(#wave)" opacity="0.35">
+    <animate attributeName="d"
+      dur="8s"
+      repeatCount="indefinite"
+      values="
+      M0 200 C250 250 750 150 1000 200 L1000 300 L0 300 Z;
+      M0 180 C300 120 700 280 1000 180 L1000 300 L0 300 Z;
+      M0 200 C250 250 750 150 1000 200 L1000 300 L0 300 Z
+      "
+    />
+  </path>
+
+  <!-- Glowing Circle -->
+  <circle cx="850" cy="80" r="50" fill="#22d3ee" opacity="0.2">
+    <animate attributeName="r"
+      values="45;55;45"
+      dur="4s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main Name -->
+  <text x="50%" y="42%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    fill="#67e8f9"
+    font-size="64"
+    font-family="Arial"
+    font-weight="700">
+
+    Yug Vyas
+
+    <animate attributeName="opacity"
+      values="0;1;1"
+      dur="2s"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="50%" y="58%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    fill="#d1fae5"
+    font-size="24"
+    font-family="Arial">
+
+    AI Engineer • Full Stack Developer • Builder
+
+    <animate attributeName="opacity"
+      values="0;0;1"
+      dur="3s"/>
+  </text>
+
+</svg>
